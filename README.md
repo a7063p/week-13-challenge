@@ -2,7 +2,7 @@
   ![license](https://img.shields.io/badge/license-MIT-critical?./license/MIT)
 
   ## Description
- Employee Tracker allows the user to view and manage departments, roles and employees in a company.  
+ This is a e-commerce back-end for a e-commerce website that utilizes a functional Express.js API.  
 
   * Link for ScreenCastify video presentation [ScreenCastify](https://drive.google.com/file/d/1fw57Kk3Ab8b0ung0dsrAfbNe5bf_SPdg/view?usp=sharing)  
   * Link for mp4 video presentation [Mp4](https://drive.google.com/file/d/12rGvHufc6_U9QWmerB1FYWUvQaD9pb5c/view?usp=sharing)    
@@ -20,21 +20,18 @@
   
 
   ## Installation
-  This application requires access to command line interface and utilizes Node.js, Mysql2 package, Inquirer package and console.table package.
+  This application requires access to command line interface and utilizes Node.js, Mysql2 package, Express package and Insominia. Users must create the database through mysql terminal and running the source db/schema.sql. once the database is constructed, the user should seed the data base through the CLI by running npm start.
 
   ## Usage
-  open your command line interface(CLI) and start the application by running node server.js. You will see several employee tracking options created in list format. Select the option and follow the prompts. 
-
-  View all employees tables all employees, titles, departments salaries and assigned managers.  
-  View all Departments tables all departments within the company.  
-  View all Roles tables all roles "titles" that an employee can be assigned.  
+  This is the back-end of the e-commerce site only. The user needs to run all tests through Insomnia to observe functionality:  
+  Three models were constructed for the PRODUCTS, CATEGORIES and TAGS. Each model has full CRUD functionality.
   
 
-  ![image](./image/employee_tracker.PNG)  
+  ![image](./image/e-commerce.PNG)  
   
   ## Languages  
   ![language](https://img.shields.io/badge/JavaScript-critical)  ![language](https://img.shields.io/badge/ES6-critical)  ![language](https://img.shields.io/badge/Node-critical)  
-  ![language](https://img.shields.io/badge/Inquirer-critical)  ![language](https://img.shields.io/badge/mysql2-critical)   
+  ![language](https://img.shields.io/badge/Insomnia-critical)  ![language](https://img.shields.io/badge/mysql2-critical)   
  
 
   ## License
