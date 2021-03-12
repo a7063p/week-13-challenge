@@ -20,7 +20,7 @@
   
 
   ## Installation
-  This application requires access to command line interface and utilizes Node.js, Mysql2 package, Express package and Insominia. Users must create the database through mysql terminal and running the source db/schema.sql. once the database is constructed, the user should seed the data base through the CLI by running npm start.
+  This application requires access to command line interface and utilizes Node.js, Mysql2 package, Express package and Insominia. Users must create the database through mysql terminal and running the source db/schema.sql. once the database is constructed, the user should seed the data base through the CLI by running npm run seed. User should start the server by running npm start.
 
   ## Usage
   This is the back-end of the e-commerce site only. The user needs to run all tests through Insomnia to observe functionality:  
