@@ -31,7 +31,7 @@
   
   ## Languages  
   ![language](https://img.shields.io/badge/JavaScript-critical)  ![language](https://img.shields.io/badge/ES6-critical)  ![language](https://img.shields.io/badge/Node-critical)  
-  ![language](https://img.shields.io/badge/Insomnia-critical)  ![language](https://img.shields.io/badge/mysql2-critical)   
+  ![language](https://img.shields.io/badge/Insomnia-critical)  ![language](https://img.shields.io/badge/mysql2-critical)  ![language](https://img.shields.io/badge/Express-critical)   
  
 
   ## License
